@@ -1,0 +1,29 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon --ignore node_modules --ignore client app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/golostos/web4-first.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/golostos/web4-first/issues"
+  },
+  "homepage": "https://github.com/golostos/web4-first#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
